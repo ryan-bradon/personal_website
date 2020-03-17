@@ -12,8 +12,8 @@ This web-app is powered with the following tech-stack:
 
 ### But why?  
 Friends don't let friends develop sites on Word Press.
+Using Python and Django, I feel this comes out as #1 for security, robustness, extensibility and modular use of code, while being developer friendly. 
 
-Using Python and Django
 
 ### Installation
 **Get Source**:  
@@ -23,10 +23,18 @@ Using Python and Django
 `python3 -m pip install pipenv`  
 `pipenv shell --python 3.7`  
 
+
+**Install Wagtail**  
+`pip install wagtail`
+`wagtail start mysite`
+`cd mysite`
+`pip install -r requirements.txt`  
+
+
+**Configure your new wagtail site**
+`pip install -r requirements.txt `
+
+### TODO:
 TODO: Finish env setup.
-
-### Database setup
-TODO: PostgreSQL configuration.
-
-### Deploying to Production
-TODO: Deployment to Azure, AWS, Google Cloud, Heroku.
+TODO: Demo/Document DB configuration.
+TODO: Demo/Document deployment to Azure, AWS, Google Cloud, Heroku.
